@@ -9,8 +9,8 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 </head>
 <body>
-    <div id="landing" class="main">
-        <div id="banner">
+    <div id="landing" class="hero">
+        <div class="banner">
             <div id="banner-logo">
                 <a href="#landing">
                     <img src="images/otterLogo.png"
@@ -18,58 +18,62 @@
                 </a>     
             </div>
             <div id="banner-links">
-                <a href="#info">More Information</a>
-                <a href="#testimony">Testimony</a>
-                <a href="#signup">Sign Up</a>
+                <ul>
+                    <li><a href="#info" class="header-link-text">More Information</a></li>
+                    <li><a href="#testimony" class="header-link-text">Testimony</a></li>
+                    <li><a href="#signup" class="header-link-text">Sign Up</a></li>
+                </ul>
             </div>
         </div>
-        <div id="summary">
-            <div id="summary-text">
-                <h1>Otters are awesome</h1>
-                <p>Seriously, look at these little critters! You know they're cool and you know you want to hear more about them.</p>
+        <div class="summary">
+            <div class="summary-text">
+                <h1 class="main-text">Otters are awesome</h1>
+                <p class="alt-text">Seriously, look at these little critters! You know they're cool and you know you want to hear more about them.</p>
                 <button type="button" class="signup-button">Sign up</button>
             </div>
             <div id="summary-image">
-                <img src="images/bigOtter.jpg">
+                <img id="big-otter" src="images/bigOtter.jpg">
             </div>
         </div>
     </div>
-    <div id="info" class="call-to-action">
-        <div class="info-header">
-            <h2>More great pictures</h2>
-        </div>
+    <main id="info">
+        <h2 class="information-header">More great pictures</h2>
         <div class="info-images">
-            <div>
-                <img src="images/otter1.jpg">
-                <p>That's an otter</p>
+            <div class="card">
+                <img class="info-otter-images" src="images/otter1.jpg">
+                <p class="img-text">Those are otters</p>
             </div>
-            <div>
-                <img src="images/otter2.jpg">
-                <p>This is an otter</p>
+            <div class="card">
+                <img class="info-otter-images" src="images/otter2.jpg">
+                <p class="img-text">This is an otter</p>
             </div>
-            <div>
-                <img src="images/otter3.jpg">
-                <p>Also an otter</p>
+            <div class="card"> 
+                <img class="info-otter-images" src="images/otter3.jpg">
+                <p class="img-text">Also an otter</p>
             </div>
-            <div>
-                <img src="images/otter4.jpg">
-                <p>Lastly, another otter</p>
+            <div class="card">
+                <img class="info-otter-images" src="images/otter4.jpg">
+                <p class="img-text">Lastly, another pair of otters</p>
             </div>
         </div>
-    </div>
+    </main>
     <div id="testimony" class="alt">
         <p class="quote">"Otters seem to make slides for fun. They will often slide down a muddy bank into the water, climb out, and do the whole thing again."</p>
-        <p>- Michael Leach</p>
+        <p class="quote-alt">- Michael Leach</p>
     </div>
     <div id="signup" class="call-to-action">
-        <div>
-            <h3>After all that, you know you want more of these critters</h3>
-            <p>Sign up so we can spam you with more otter pictures!</p>
-            <button type="button" class="signup-button">Sign up</button>
+        <div class="container">
+            <div>
+                <strong class="alt-text signup-header">You know you want more of these critters</strong>
+                <p class="alt-text">Sign up so we can spam you with more otter pictures!</p>
+            </div>
+            <div>
+                <button type="button" class="signup-button alt-button">Sign up</button>
+            </div>
         </div>
     </div>
-    <div id="footer">
-        <p>Copyright &copy; The Odin Project 2022</p>
+    <div id="footer" class="hero">
+        <p class="alt-text">Copyright &copy; The Odin Project 2022</p>
     </div>
 </body>
 </html>

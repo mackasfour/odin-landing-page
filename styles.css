@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+.banner ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.summary {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.summary-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-link-text{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.alt-text{ 
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.alt {
+    background-color:#E5E7EB;
+}
+
+.info-otter-images {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.info-images{
+    flex: 1;
+    gap: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 6em 0;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    max-width: 200px;
+}
+
+.signup-button {
+    color: white;
+    max-width: 150px;
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    padding: 5px 25px 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#big-otter {
+    border-radius: 20px;
+    border: 2px solid #FFF;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.alt-button {
+    border: 2px solid #FFF;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-alt {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.signup-header {
+    color: #FFF;
+}
+
+#big-otter{
+    width: 35vw;
+}
+
+#footer{
+    text-align: center;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
