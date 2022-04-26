@@ -4,9 +4,9 @@ body {
     margin: 0;
 }
 
-.hero {
-    background-color: #1f2937;
-    padding: 1em 13em;
+p {
+    padding: 0;
+    margin: 0;
 }
 
 main {
@@ -15,6 +15,11 @@ main {
     align-items: center;
     padding: 0 13em;
     margin-top: 3em;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding: 1em 13em;
 }
 
 .main-text{
@@ -29,15 +34,20 @@ main {
     font-size: 18px;
 }
 
-#banner-links {
-    display: flex;
-    align-items: center;
-}
-
 .banner ul{
     list-style-type: none;
     display: flex;
     gap: 1.5em;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner-links {
+    display: flex;
+    align-items: center;
 }
 
 .summary {
@@ -66,6 +76,7 @@ main {
 #big-otter {
     border-radius: 20px;
     border: 2px solid #FFF;
+    width: 35vw;
 }
 
 .info-otter-images {
@@ -82,19 +93,13 @@ main {
     color: #1F2937;
 }
 
-.banner {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .info-images{
     flex: 1;
     gap: 2.5em;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 3em 0 6em 0;
+    align-items: baseline;
 }
 
 .card {
@@ -103,7 +108,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
-    max-width: 200px;
+    max-width: 180px;
 }
 
 .signup-button {
@@ -120,6 +125,37 @@ main {
     border-radius: 5px;
 }
 
+.container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10em 20em;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-alt {
+    font-size: 32px;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #1F2937;
+    text-align: end;
+}
+
 #signup {
     display: flex;
     justify-content: center;
@@ -131,41 +167,10 @@ main {
     border: 2px solid #FFF;
 }
 
-.container {
-    background-color: #3882F6;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3em;
-    width: 100%;
-    border-radius: 10px;
-}
-
-.quote {
-    font-size: 36px;
-    color: #1f2937;
-    font-style: italic;
-}
-
-.quote-alt {
-    font-size: 36px;
-    font-weight: bold;
-    color: #1F2937;
-}
-
 .signup-header {
     color: #FFF;
 }
 
-#big-otter{
-    width: 35vw;
-}
-
 #footer{
     text-align: center;
-}
-
-p {
-    padding: 0;
-    margin: 0;
 }
