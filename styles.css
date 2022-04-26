@@ -1,11 +1,37 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    margin: 0;
 }
 
 .hero {
     background-color: #1f2937;
     padding: 1em 13em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.header-link-text{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#banner-links {
+    display: flex;
+    align-items: center;
 }
 
 .banner ul{
@@ -28,16 +54,8 @@ body {
     gap: 10px;
 }
 
-.header-link-text{
-    color: #E5E7EB;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.main-text{
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8
+.alt {
+    background-color:#E5E7EB;
 }
 
 .alt-text{ 
@@ -45,8 +63,9 @@ body {
     font-size: 18px;
 }
 
-.alt {
-    background-color:#E5E7EB;
+#big-otter {
+    border-radius: 20px;
+    border: 2px solid #FFF;
 }
 
 .info-otter-images {
@@ -63,18 +82,9 @@ body {
     color: #1F2937;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 13em;
-    margin-top: 3em;
-}
-
 .banner {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
 }
 
 
@@ -110,16 +120,15 @@ main {
     border-radius: 5px;
 }
 
-#big-otter {
-    border-radius: 20px;
-    border: 2px solid #FFF;
-}
-
 #signup {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5em 13em;
+}
+
+.alt-button {
+    border: 2px solid #FFF;
 }
 
 .container {
@@ -132,9 +141,6 @@ main {
     border-radius: 10px;
 }
 
-.alt-button {
-    border: 2px solid #FFF;
-}
 .quote {
     font-size: 36px;
     color: #1f2937;
